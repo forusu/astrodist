@@ -34,7 +34,7 @@ while "n" not in command:
                 if parsecs < 10:
                     for i in range(parsecs):
                         vis.append(ps)
-                if parsecs > 10:
+                if parsecs >= 10:
                     for j in range (int(parsecs / 10)):
                         vis.append(ps10)
 
