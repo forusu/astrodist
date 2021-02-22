@@ -11,5 +11,10 @@ def ly ():
     ly = pc(arcsecs) * 3.261563777
     return ly;
 
+def mt ():
+    mt = pc (arcsecs) * 3.085677581e+16
+    return mt;
 
-print(star, "is", pc(arcsecs), "parsecs away, or", ly(), "lightyears away")
+
+print(star, "is", pc(arcsecs), "parsecs away, or", ly(), "lightyears away, or", mt(), "meters away")
+
