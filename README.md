@@ -9,7 +9,9 @@ General formula for star distance calculation should be Ds = AU / tan (theta / 3
 * Calculate astronomical distances in parsecs, lightyears and meters using measured stellar parallax
 * Visualise the result with ascii
 * Write the output to a file for easy viewing after multiple calculations
+* Converter to arcseconds included
 
 # Screenshots
 ![](https://media.discordapp.net/attachments/751326505694658654/813348397984907314/unknown.png)
 ![](https://media.discordapp.net/attachments/751326505694658654/813349042779455538/unknown.png)
+![](https://media.discordapp.net/attachments/751326505694658654/813358469636816917/unknown.png?width=463&height=76)
