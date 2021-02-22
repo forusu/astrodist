@@ -1,5 +1,3 @@
-import math
-
 command = []
 
 while "exit" not in command:
@@ -13,6 +11,7 @@ while "exit" not in command:
         arcs = ui / 3600
         print("--------------------------------------------------------")
         print(ui, "degrees is", arcs, "arcseconds")
+        print("--------------------------------------------------------")
 
     if "am" in command:
 
@@ -20,6 +19,7 @@ while "exit" not in command:
         arcs = ui / 60
         print("--------------------------------------------------------")
         print(ui, "arcminutes is", arcs, "arcseconds")
+        print("--------------------------------------------------------")
 
     if "mas" in command:
 
@@ -27,10 +27,12 @@ while "exit" not in command:
         arcs = ui * 0.001
         print("--------------------------------------------------------")
         print(ui, "miliarcseconds is", arcs, "arcseconds")    
+        print("--------------------------------------------------------")
 
     if "mias" in command:
 
         ui = float(input("Enter amount of microarcseconds you want to convert: "))
         arcs = ui * 0.000001
         print("--------------------------------------------------------")
-        print(ui, "degrees is", arcs, "arcseconds")       
+        print(ui, "degrees is", arcs, "arcseconds")
+        print("--------------------------------------------------------")
