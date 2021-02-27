@@ -1,4 +1,4 @@
-# astronomical-distance
+# astrodist
 Fast and easy distance calculation based on observed stellar parallax in parsecs and lightyears. Writes output to json that you can view afterwards or parse if needed.
 
 I tried doing this properly but failed because I'm dumb so instead of being a nice learning experience it sucks and is oversimplified but accurate.
